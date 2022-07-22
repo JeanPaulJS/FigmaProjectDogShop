@@ -92,22 +92,20 @@ html{
 /*Para la pagina principal (index)*/
 main {
     width: 100%;
-
 }
 #portada {
     padding: 20px;
     text-align: center;
 }
-
-
 #acercade{
+    width: 100%;
     display: flex;
     background-color: rgb(204, 233, 233);
 }
 .tresperritos img{
     margin: 40px;
-    border-radius: 10px;
     width: 700px;
+    border-radius: 10px;
     height: auto;
 }
 .quienSon {
@@ -133,6 +131,7 @@ main {
     text-align: center;
 }
 #ofrecemos h2 {
+    font-size: 4em;
     padding-top: 12px;
 }
 .ofrecemos-casillas{
@@ -237,7 +236,6 @@ aside{
     width: 100%;
 }
 #ficha-return{
-    width: 100%;
     background-color: rgb(209, 215, 219);
     display: flex;
     padding: 20px;
@@ -281,9 +279,34 @@ aside{
     text-align: center;
 }
 
+#ficha-caracter{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+#ficha-caracter div{
+    background-color: rgb(246, 241, 241);
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#ficha-caracter div div{
+    padding: 12px;
+    background-color: #db2263;
+}
+#ficha-caracter div table{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#ficha-caracter div p{
+    padding: 10px;
+    text-align: justify;
+}
+
 .ficha-obtener{
     display: flex;
-    margin: 10px;
+    margin: 25px;
     justify-content: center;;
 }
 .ficha-obtener div{
@@ -300,6 +323,7 @@ aside{
     width: 50px;
     height: 50px;
 }
+
 /*Para la cuenta de usuario (cuenta)*/
 #cuenta-cabecera{
     display: flex;
