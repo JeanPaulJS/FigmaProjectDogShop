@@ -201,12 +201,10 @@ aside{
 .galery-choose-item h2 {
     padding-top: 8px;
 }
-
 .galery-choose-item img {
     width: 50px;
     height: 50px;
 }
-
 #galery-mas-items{
     margin: 20px;
     display: flex;
@@ -257,10 +255,7 @@ aside{
 
 #ficha-portada{
     display: flex;
-    margin: 60px;
-}
-.ficha-foto{
-    margin: 20px;
+    margin: 40px;
 }
 .ficha-foto img{
     padding: 20px;
@@ -273,7 +268,9 @@ aside{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
 }
 .ficha-descripcion div{
     color: aliceblue;
@@ -284,6 +281,25 @@ aside{
     text-align: center;
 }
 
+.ficha-obtener{
+    display: flex;
+    margin: 10px;
+    justify-content: center;;
+}
+.ficha-obtener div{
+    display: flex;
+    justify-content: center;
+    background-color: #b1e9ec;
+    padding: 6px;
+    border-radius: 100px;
+}
+.ficha-obtener h2{
+    padding-top: 8px;
+}
+.ficha-obtener img{
+    width: 50px;
+    height: 50px;
+}
 /*Para la cuenta de usuario (cuenta)*/
 #cuenta-cabecera{
     display: flex;
